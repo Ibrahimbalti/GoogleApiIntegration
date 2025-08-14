@@ -210,6 +210,8 @@ const GooglePlacesAutocomplete = () => {
     };
   }, [API_KEY]);
 
+  //   kdkdkkd
+
   const fetchPredictions = (input) => {
     if (!input || apiStatus !== "ready") {
       setPredictions([]);
